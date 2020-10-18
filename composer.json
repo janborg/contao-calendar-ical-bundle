@@ -1,5 +1,5 @@
 {
-  "name": "craffft/contao-calendar-ical-bundle",
+  "name": "janborg/contao-calendar-ical-bundle",
   "type": "contao-bundle",
   "description": "iCal support for calendar of Contao OpenSource CMS",
   "keywords": [
@@ -17,11 +17,15 @@
       "name": "Daniel Kiesel",
       "email": "daniel@craffft.de",
       "homepage": "http://craffft.de"
+    },
+    {
+      "name": "Jan Lünborg",
+      "email": "jan@luenborg.eu"
     }
   ],
   "support": {
-    "issues": "https://github.com/Craffft/contao-calendar-ical-bundle/issues",
-    "source": "https://github.com/Craffft/contao-calendar-ical-bundle"
+    "issues": "https://github.com/janborg/contao-calendar-ical-bundle/issues",
+    "source": "https://github.com/janborg/contao-calendar-ical-bundle"
   },
   "require": {
     "php": ">=5.6.0",

@@ -199,9 +199,9 @@ class CalendarExport extends \Backend
                 $vevent->setProperty('description', html_entity_decode(strip_tags(preg_replace('/<br \\/>/', "\n",
                     $this->replaceInsertTags($objEvents->teaser))), ENT_QUOTES, 'UTF-8'));
 
-                if ($objEvents->cep_location) {
+                if ($objEvents->location) {
                     $vevent->setProperty('location',
-                        trim(html_entity_decode($objEvents->cep_location, ENT_QUOTES, 'UTF-8')));
+                        trim(html_entity_decode($objEvents->location.", ".$objEvents->address, ENT_QUOTES, 'UTF-8')));
                 }
 
                 if ($objEvents->cep_participants) {

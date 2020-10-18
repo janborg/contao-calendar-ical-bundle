@@ -40,13 +40,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Janborg\\ContaoCalendarICalBundle\\": "src/"
+      "Craffft\\ContaoCalendarICalBundle\\": "src/"
     }
   },
   "extra": {
     "branch-alias": {
       "dev-develop": "4.2.x-dev"
     },
-    "contao-manager-plugin": "Janborg\\ContaoCalendarICalBundle\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "Craffft\\ContaoCalendarICalBundle\\ContaoManager\\Plugin"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "janborg/contao-calendar-ical-bundle",
+  "name": "craffft/contao-calendar-ical-bundle",
   "type": "contao-bundle",
   "description": "iCal support for calendar of Contao OpenSource CMS",
   "keywords": [
